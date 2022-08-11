@@ -2,7 +2,7 @@
 .navbar{
     color:black;
     font-size: 1.3rem;
-    font-weight: bold;
+    font-weight: bolder;
 }
 body{
     color:black;
@@ -88,6 +88,16 @@ body{
   }
   #main-id{
     padding-left:20px;
+   
+  }
+  #main-div{
+    
+    height:600px;
+    background-color: wheat;
+    border-bottom-left-radius:40px ;
+    border-bottom-right-radius:40px ;
+    border-top-left-radius:40px ;
+    border-top-right-radius:40px ;
   }
   .enterid{
     font-size:x-large;
@@ -97,7 +107,14 @@ body{
    
     font-size: x-large;
     font-weight:bold;
+    padding-left: 5%;
+   
     
+  }
+  label{
+    line-height: 2;
+    font-size: larger;
+    font-weight: 600;
   }
   .tags{
     color: black;
@@ -110,9 +127,37 @@ body{
     font-weight: bolder;
     line-height: 2;
   }
+  .signup{
+    
+    height:500px;
+    width:1500px;
+    border-top-left-radius:30px ;
+    border-top-right-radius:250px ;
+    border-bottom-left-radius:250px ;
+    border-bottom-right-radius:30px ;
+    background-color: wheat;
+    margin-left:100px;
+    margin-bottom: 50px;
+    padding:30px;
+    
+  }
+  .signlabel{
+    font-size: 2rem;
+    padding-left: 30px;
+  }
+  .inputsignup{
+    width:70%;
+    height:40%;
+    margin-bottom: 25px;
+  }
+  .signupbtn{
+    margin-left: 45%;
+    margin-top: 5%;
+  }
   .main-footer{
     background-color: wheat;
     border-bottom: 15px solid white;
+    padding-left:50px;
   }
   .below-footer{
     background-color: wheat;

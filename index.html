@@ -18,10 +18,11 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
 <body>
   <div class="container-fluid">
     <header>
-        <hr>
+        
         <nav class="navbar fixed-top navbar-expand-lg navbar-light navstyle">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">Navbar</a>
+                <i class="fa-solid fa-people-group fa-2x"></i>
+              <a class="navbar-brand" href="#">Dataism</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -31,17 +32,19 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
                     <a class="nav-link" href="#home">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#blog">BLog</a>
+                    <a class="nav-link" href="#blog">Blog</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link" href="#contact">Contact</a>
                   </li>
-                  
+                  <li class="nav-item">
+                    <a class="nav-link" href="#signup">Signup</a>
+                  </li>
                   
               </div>
             </div>
           </nav>
-          <hr>
+          
     </header>
   </div> 
   
@@ -71,12 +74,81 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
   </section>
 <div class="container bottombar">
   <span class="personamnagement">The Person Management Application</span><br>
-  <span class="personamnagement1">1500+ orginization trust lattice to drive performance & engagement</span>
+  <span class="personamnagement1">1500+ orginization trust to drive performance & engagement</span>
 </div>
 <hr>
 
 
-<!-- Blog section -->
+
+<!-- Contact section -->
+<section id="contact">
+    <div class="container">
+        <p class="text-center contact-heading">CONTACT</p>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div>
+                <span class="input-style">Fetch Data By</span>  <br>
+                <span class="input-style">Entering Id Number</span>
+                </div>
+            </div>
+            <div class="col-lg-6">
+            <input id="idinput" class="form-control mr-sm-2" type="search" placeholder="Enter ID" aria-label="Search" style="margin-bottom:6px; width
+            :70%;height:50%;">
+            <button id="search-button" class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
+        </div>
+        </div>
+    </div>
+ <div class="container">  
+<div id="main-div">
+  <div id="info-div"style="padding-left:50px; padding-top:20px;margin-top:10px;">
+      
+      <div class="info-divs"><i class="fa-solid fa-phone fa-2x"></i><span id="phone"></span></div><br>
+      
+      
+      <div class="info-divs"><i class="fa-solid fa-file-signature fa-2x"></i><span id="website"></span></div><br>
+      
+      <div class="info-divs"><i class="fa-solid fa-location-dot fa-2x"></i><span id="address"></span></div><br>
+      
+      <div class="info-divs"><i class="fa-solid fa-envelope fa-2x"></i><span id="email"></span></div><br>
+
+  </div>
+  <div id="sub-div">
+      <form>
+          <!-- <div class="form-row"> -->
+            <div class="container">
+                <div class="row">
+                <div class="col-lg-6">
+                    <label for="input" >Full Name</label>
+              <input type="text" class="form-control" id="fullname" disabled>
+                </div>
+            <div class="col-lg-6">
+                <label for="username">Username</label>
+              <input type="text" class="form-control" id="username" disabled>
+            </div>
+        </div>
+            
+            
+          
+          <div class="form-group">
+            <label for="zipcode">Zipcode</label>
+            <input type="text" class="form-control" id="zipcode" disabled>
+          </div>
+          <div class="form-group">
+            <label for="companyname">Company Name</label>
+            <input type="text" class="form-control" id="companyname" disabled>
+          </div>
+        </div>
+        </div>
+        </div>
+          
+ </div>          
+        </form>
+ 
+</section>
+<hr>
+
 
 <section id="blog">
     <div class="container">
@@ -152,70 +224,46 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
 </div>
 </section>
 <hr>
-<!-- Contact section -->
-<section id="contact">
-    <div class="container">
-        <p class="text-center contact-heading">CONTACT</p>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6">
-                <div>
-                <span class="input-style">Fetch Data By</span>  <br>
-                <span class="input-style">Entering Id Number</span>
-                </div>
-            </div>
-            <div class="col-lg-6">
-            <input id="idinput" class="form-control mr-sm-2" type="search" placeholder="Enter ID" aria-label="Search" style="margin-bottom:2px;">
-            <button id="search-button" class="btn  my-2 my-sm-0" type="submit">Search</button>
-        </div>
-        </div>
-    </div>
- <div class="container">  
-<div id="main-div">
-  <div id="info-div"style="border:3px solid black;padding-left:50px; padding-top:20px;">
-      
-      <div class="info-divs"><i class="fa-solid fa-phone fa-2x"></i><span id="phone"></span></div><br>
-      
-      
-      <div class="info-divs"><i class="fa-solid fa-file-signature fa-2x"></i><span id="website"></span></div><br>
-      
-      <div class="info-divs"><i class="fa-solid fa-location-dot fa-2x"></i><span id="address"></span></div><br>
-      
-      <div class="info-divs"><i class="fa-solid fa-envelope fa-2x"></i><span id="email"></span></div><br>
+<!-- signup section -->
+<section id="signup">
+<div class="container signup">
+    <p class="text-center" style="font-weight:bolder;font-size:xx-large;padding-top:20px;">GET IN TOUCH</p>
+    <div class="row">
+        <div class="col-lg-6">
+            <i class="fa-brands fa-adversal fa-3x"></i>
+            <label for="Name" class="signlabel">Name</label><br>
+            <input type="text" class="inputsignup">
 
-  </div>
-  <div id="sub-div">
-      <form>
-          <div class="form-row">
-            <div class="form-group col-md-6">
-              <label for="input">Full Name</label>
-              <input type="text" class="form-control" id="fullname" disabled>
-            </div>
-            <div class="form-group col-md-6">
-              <label for="username">Username</label>
-              <input type="text" class="form-control" id="username" disabled>
-            </div>
-          </div>
-          <div class="form-group">
-            <label for="zipcode">Zipcode</label>
-            <input type="text" class="form-control" id="zipcode" disabled>
-          </div>
-          <div class="form-group">
-            <label for="companyname">Company Name</label>
-            <input type="text" class="form-control" id="companyname" disabled>
-          </div>
-          <div class="form-row">
-            <div class="form-group col-md-6">
-              <label for="phrase">Catch Phrase</label>
-              <input type="text" class="form-control" id="phrase" disabled>
-            </div>
-        </form>
-  </div>
+        </div>
+        <div class="col-lg-6">
+           
+            <i class="fa-solid fa-location-dot fa-3x"></i>
+            <label for="Address" class="signlabel">Address</label><br>
+            <input type="text" class="inputsignup">
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-6">
+            <i class="fa-solid fa-envelope fa-3x"></i>
+            <label for="Email" class="signlabel">Email</label><br>
+            <input type="text" class="inputsignup">
+
+        </div>
+        <div class="col-lg-6">
+            <i class="fa-solid fa-phone fa-3x"></i>
+            <label for="Mobile" class="signlabel">Mobile</label><br>
+            <input type="text" class="inputsignup">
+
+        </div>
+    </div>
+   
+        <button type="submit" class=" btn btn-dark signupbtn">Submit</button>
+    
+
+
 </div>
-</div> 
 </section>
-<hr>
 <!-- Footer section  -->
 <footer>
     <div class="container-fluid main-footer">
@@ -239,7 +287,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
 </div>
 </div>
 <div class="container-fluid below-footer">
-    All Copy Rights Reserved &copy
+   <p class="text-center"style="padding-top:15px;">All Copy Rights Reserved &copy</p> 
 </div> 
 </footer>
 <script src="main.js"></script></body>
