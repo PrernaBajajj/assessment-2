@@ -65,3 +65,49 @@ body{
   .plus{
     font-size:x-large;
   }
+  .blog-p-div{
+    padding-left: 15px;
+    font-size: 1.1rem;
+  }
+  .shadow{
+    box-shadow:  5px 10px #888888;
+  }
+  .blog-style{
+    font-size: xx-large;
+    font-weight: bolder;
+  }
+
+  .contact-heading{
+    font-size: xx-large;
+    font-weight: bolder;
+    
+  }
+  .enterid{
+    font-size:x-large;
+    padding: 20px;
+  }
+  .input-style{
+    padding-left:40px;
+    font-size: x-large;
+    font-weight:bold;
+    
+  }
+  .tags{
+    color: black;
+  }
+  .icon:hover{
+    color:wheat;
+  }
+  .heading{
+    font-size: xx-large;
+    font-weight: bolder;
+    line-height: 2;
+  }
+  .main-footer{
+    background-color: wheat;
+    border-bottom: 15px solid white;
+  }
+  .below-footer{
+    background-color: wheat;
+    border-bottom: 15px solid white;
+  }
