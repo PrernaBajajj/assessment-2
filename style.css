@@ -15,7 +15,7 @@ body{
   }
   .homediv{
     height: 500px;
-    width:500px;
+    width:450px;
     padding-left: 25px;
     
     
@@ -61,4 +61,7 @@ body{
   .bottombar{
     margin:30px;
     padding-left: 10%;
+  }
+  .plus{
+    font-size:x-large;
   }
