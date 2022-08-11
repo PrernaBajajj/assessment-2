@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&family=Heebo:wght@300&family=Merriweather&family=Montserrat&family=Sacramento&family=Source+Code+Pro:wght@300&display=swap');
-
+.navbar{
+    color:black;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
 body{
     color:black;
     font-family: 'Heebo', sans-serif;
@@ -81,6 +85,9 @@ body{
     font-size: xx-large;
     font-weight: bolder;
     
+  }
+  #main-id{
+    padding-left:20px;
   }
   .enterid{
     font-size:x-large;

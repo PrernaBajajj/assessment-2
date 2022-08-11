@@ -18,7 +18,8 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
 <body>
   <div class="container-fluid">
     <header>
-        <nav class="navbar  navbar-expand-lg navbar-light navstyle">
+        <hr>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light navstyle">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">Navbar</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,9 +41,10 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
               </div>
             </div>
           </nav>
+          <hr>
     </header>
   </div> 
-  <hr>
+  
   <section id="home">
     
     <div class="container-fluid">
@@ -158,18 +160,57 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
     <div class="container">
         <div class="row">
             <div class="col-lg-4 ">
-                <div class="inputdiv" style="height:300px; width:300px; background-color:rgb(240, 240, 240,3);padding-top:20px;">
+                <div class="inputdiv" style="height:270px; width:300px; background-color:#f5deb3;padding-top:40px;">
                    <span class="input-style">Fetch Data By</span><br>
                     <span class="input-style">Entering  ID Number </span><br>
+                    <br>
+                    
                     <span  class="enterid" > Enter Id :</span> <br>
-                    <input type="number" placeholder="Enter Id  Number" id="input" style="margin-left:20px;">
+                    <input type="text" placeholder="Enter Id  Number" id="input" style="margin-left:20px;">
+                    <button type="button" id="search-button">Search</button>
                 </div>
             </div>
-            <div class="col-lg-4">
-                
+            <div class="col-lg-8 " style="background-color:#dcc7a1"><br>
+                <div id="main-id">
+                    <div class="main-divs"><i class="fa-solid fa-phone fa-2x"></i><span id="phone"></span></div><br>
+                    <div class="main-divs"><i class="fa-solid fa-file-signature fa-2x"></i><span id="username"></span></div><br>
+                    <div class="main-divs"><i class="fa-solid fa-location-dot fa-2x"></i><span id="address"></span></div><br>
+                    <div class="main-divs"><i class="fa-solid fa-envelope fa-2x"></i><span id="email"></span></div><br>
+    
+                </div>
             </div>
-            <div class="col-lg-4">
-                
+            
+        </div>
+
+        <div class="form-group">
+            <div class="row">
+                <div class="col-lg-6">
+                    <label for="input">Name</label>
+                    <input type="text" class="form-control" id="fullname" disabled>
+
+                </div>
+                <div class="col-lg-6">
+                    <label for="input">UserName</label>
+                    <input type="text" class="form-control" id="username" disabled>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <label for="input">Zipcode</label>
+                    <input type="text" class="form-control" id="uzipcode" disabled> 
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <label for="input">Website</label>
+                    <input type="text" class="form-control" id="website" disabled> 
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <label for="input">CompanyName</label>
+                    <input type="text" class="form-control" id="companyname" disabled> 
+                </div>
             </div>
         </div>
     </div>
@@ -177,7 +218,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
 <hr>
 <!-- Footer section  -->
 <footer>
-    <div class="container main-footer">
+    <div class="container-fluid main-footer">
         <div class="row">
             <div class="col-lg-4">
     <i class="fa-solid fa-location-dot fa-2x"></i><span class="heading">Addresss</span> <br>
@@ -197,9 +238,9 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
 </div> 
 </div>
 </div>
-<div class="container below-footer">
+<div class="container-fluid below-footer">
     All Copy Rights Reserved &copy
 </div> 
 </footer>
-</body>
+<script src="main.js"></script></body>
 </html>
