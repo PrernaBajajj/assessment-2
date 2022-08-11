@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&family=Heebo:wght@300&family=Merriweather&family=Montserrat&family=Sacramento&family=Source+Code+Pro:wght@300&display=swap');
+
+body{
+    color:black;
+    font-family: 'Heebo', sans-serif;
+    
+}
+
+  #home{
+    margin-top: 0%;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    background-color: wheat;
+   
+  }
+  .homediv{
+    height: 500px;
+    width:500px;
+    padding-left: 25px;
+    
+    
+    
+  }
+  .homecenter{
+    font-weight:bolder;
+    font-size: 3.0rem;
+  }
+  .homediv2{
+    padding-top: 120px;
+    padding-left:70px;
+  }
+  .dataperson{
+    text-align: center;
+    border:2px solid white;
+    width:200px;
+    height:80px;
+    /* border-radius: 100px; */
+    border-top-left-radius:40px ;
+    border-top-right-radius:490px ;
+    border-bottom-left-radius:490px ;
+    border-bottom-right-radius:40px ;
+    padding-top: 20px;
+    margin-left: 120px;
+    font-size:1.5rem;
+    font-weight:bolder;
+    margin-top: 10px;
+  }
+  .homediv3{
+    padding-top: 80px;
+    padding-left: 70px;
+  }
+  .personamnagement{
+    
+    padding-left: 35%;
+    font-weight: bolder;
+    font-size: 1.7rem;
+  }
+  .personamnagement1{
+    padding-left: 35%;
+  }
+  .bottombar{
+    margin:30px;
+    padding-left: 10%;
+  }
