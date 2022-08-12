@@ -21,9 +21,6 @@ body{
     height: 500px;
     width:450px;
     padding-left: 25px;
-    
-    
-    
   }
   .homecenter{
     font-weight:bolder;
@@ -75,7 +72,9 @@ body{
   }
   .shadow{
     box-shadow:  5px 10px #888888;
+   
   }
+  
   .blog-style{
     font-size: xx-large;
     font-weight: bolder;
@@ -119,16 +118,20 @@ body{
   .tags{
     color: black;
   }
+  
   .icon:hover{
-    color:wheat;
-  }
+    transform: translateY(-7px);
+    color:black;
+        }
+    .icon{
+            transition: 0.3s ease;
+        }
   .heading{
     font-size: xx-large;
     font-weight: bolder;
     line-height: 2;
   }
   .signup{
-    
     height:500px;
     width:1500px;
     border-top-left-radius:30px ;
@@ -139,7 +142,6 @@ body{
     margin-left:100px;
     margin-bottom: 50px;
     padding:30px;
-    
   }
   .signlabel{
     font-size: 2rem;
