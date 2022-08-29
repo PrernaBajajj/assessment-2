@@ -7,7 +7,7 @@
 body{
     color:black;
     font-family: 'Heebo', sans-serif;
-    
+    overflow-x: hidden;
 }
 
   #home{
@@ -28,7 +28,7 @@ body{
   }
   .homediv2{
     padding-top: 120px;
-    padding-left:70px;
+    padding-left:40px;
   }
   .dataperson{
     text-align: center;
